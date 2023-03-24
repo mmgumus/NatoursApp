@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+dist/
+out/
+build/
+public/build/
+public/dist/
+public/out/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
