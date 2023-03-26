@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const express = require("express"); 
+const express = require("express");
 const morgan = require("morgan");
 
 const tourRouter = require("./routes/tourRoutes");
@@ -7,7 +7,6 @@ const userRouter = require("./routes/userRoutes");
 
 const app = express();
 const port = 3000;
-
 
 app.use(express.json());
 app.use(morgan("dev"));
